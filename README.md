@@ -4,13 +4,13 @@
 [![bitHound Dev Dependencies](https://www.bithound.io/github/borysn/spring-boot-angular2/badges/devDependencies.svg)](https://www.bithound.io/github/borysn/spring-boot-angular2/master/dependencies/npm)
 [![bitHound Code](https://www.bithound.io/github/borysn/spring-boot-angular2/badges/code.svg)](https://www.bithound.io/github/borysn/spring-boot-angular2)
 
-# spring-boot-angular2 starter kit
+# spring-boot-react starter kit
 
-spring boot backend, angular2 frontend with webpack, typescript, sass, bootstrap4, karma, jasmine
+spring boot backend, react frontend with webpack, typescript, sass, bootstrap4, karma, jasmine
 
 ## about
 
-a starter project for prototyping restful applications with spring boot, angular2, and bootstrap4.
+a starter project for prototyping restful applications with spring boot, react, and bootstrap4.
 
 anuglar2 with es6 support. unit tests with jasmine.
 
