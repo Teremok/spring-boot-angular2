@@ -1,7 +1,7 @@
 // frontend build.gradle
 
 plugins {
-	id "com.moowork.node" version "0.13"
+  id "com.moowork.node" version "0.13"
 }
 
 //def generatedWebResources = "${buildDir}/generated-web-resources"
@@ -14,20 +14,20 @@ plugins {
 
 // configure gradle-node-plugin
 node {
-	version = '6.4.0'
-	npmVersion = '3.10.6'
-	download = true
-	workDir = file("${project.projectDir}/node")
-	nodeModulesDir = file("${project.projectDir}/")
+  version = '6.4.0'
+  npmVersion = '3.10.6'
+  download = true
+  workDir = file("${project.projectDir}/node")
+  nodeModulesDir = file("${project.projectDir}/")
 }
 
 // clean node/node_modules/dist
 task npmClean(type: Delete) {
-	final def webDir = "${rootDir}/frontend"
-	delete "${webDir}/node"
-	delete "${webDir}/node_modules"
-	delete "${webDir}/dist"
-	delete "${webDir}/coverage"
+  final def webDir = "${rootDir}/frontend"
+  delete "${webDir}/node"
+  delete "${webDir}/node_modules"
+  delete "${webDir}/dist"
+  delete "${webDir}/coverage"
 }
 
 // clean task for npm
@@ -48,6 +48,6 @@ task check {}
 check.dependsOn(npm_run_test)
 
 // run all task
-task runAll{}
+task runAll {}
 runAll.dependsOn(npm_run_start)
 

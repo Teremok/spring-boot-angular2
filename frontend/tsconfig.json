@@ -2,19 +2,22 @@
   "compilerOptions": {
       "target": "es6",
       "module": "commonjs",
+    "jsx": "react",
+
       "moduleResolution": "node",
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
       "sourceMap": true,
       "noEmitHelpers": true,
+    "noImplicitAny": true,
       "lib": ["es6", "dom"],
       "strictNullChecks": false,
+
       "baseUrl": "./src",
       "paths": [
       ],
       "types": [
         "jasmine",
-        "jquery",
         "lodash",
         "node",
         "source-map",
