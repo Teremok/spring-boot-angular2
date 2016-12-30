@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+set -x
+
+cd $OPENSHIFT_REPO_DIR
+
+# gradle build
+bash gradlew build
